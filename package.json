@@ -1,0 +1,8 @@
+{
+  "name": "village-system",
+  "version": "1.0.0",
+  "dependencies": {
+    "@line/bot-sdk": "^9.3.0",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
