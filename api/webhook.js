@@ -33,7 +33,7 @@ module.exports = async (req, res) => {
     const replyToken = event.replyToken
 
     if (text === 'สวัสดี') {
-      await replyMessage(replyToken, 'สวัสดีครับ ยินดีต้อนรับสู่ระบบหมู่บ้าน 🏘️')
+      await replyMessage(replyToken, 'สวัสดีครับ ยินดีต้อนรับสู่ระบบหมู่บ้าน Plus City Park 101/1 🏘️')
     } else {
       await replyMessage(replyToken, `รับข้อความว่า: "${text}" ครับ`)
     }
